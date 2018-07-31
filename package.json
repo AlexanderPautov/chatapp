@@ -2,7 +2,7 @@
   "name": "chatapp",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://alexanderpautov.github.io/chatapp",
+  "homepage": "https://alexanderpautov.github.io/chatapp",
   "dependencies": {
     "react": "^16.4.1",
     "react-dom": "^16.4.1",

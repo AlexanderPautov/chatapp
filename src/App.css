@@ -1,28 +1,132 @@
-.App {
-  text-align: center;
+main {
+    width: 375px;
+    margin: 0 auto;
+    background-color: #00a0ff;
+    background-image: url(./img/Triangle.png);
+    background-position-y: 15px;
+    background-repeat: no-repeat;
+    background-size: 110%;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+main > p {
+    margin: 0;
+    color: #fff;
+    font-size: 100px;
+    font-family: 'Karla-Bold';
+    position: relative;
+    top: 50px;
+    left: -9px;
+    overflow: hidden;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
-  color: white;
+.icon {
+    text-align: center;
+    margin-top: 20px;
 }
 
-.App-title {
-  font-size: 1.5em;
+.icon img {
+    width: 60%;
 }
 
-.App-intro {
-  font-size: large;
+.box {
+    background-color: white;
+    width: 86%;
+    margin: 0 auto;
+    position: relative;
+    top: -50px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.box .content {
+    padding: 40px 40px 0 40px;
+}
+
+.box input {
+    display: block;
+    padding: 10px 0;
+    width: 100%;
+    margin: 0 0 20px 0;
+    outline: none;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    font-family: 'Karla-Regular';
+    font-size: 16px;
+}
+
+.box label {
+    font-family: 'Karla-Bold';
+    font-size: 12px;
+    text-transform: uppercase;
+    color: #ad807d;
+}
+
+.box button {
+    background-color: #00a0ff;
+    outline: none;
+    border: none;
+    color: white;
+    font-family: 'Karla-Bold';
+    font-size: 13px;
+    width: 100%;
+    padding: 20px 40px;
+    text-align: right;
+}
+
+.box button > i {
+    position: absolute;
+    left: 40px;
+    top: 210px;
+    border-top: 5px solid transparent;
+    border-bottom: 5px solid transparent;
+    border-left: 8px solid white;
+}
+
+footer {
+    height: 285px;
+    background-color: #000;
+    color: white;
+    vertical-align: bottom;
+    font-family: 'Karla-Regular';
+    font-size: 12px;
+}
+
+footer p {
+    margin: 0;
+    text-align: center;
+    font-family: 'Karla-Regular';
+}
+
+footer a {
+    color: white;
+    text-decoration: none;
+    border-bottom: 1px solid white;
+    padding-bottom: 4px;
+    font-family: 'Karla-Bold';
+}
+
+@font-face {
+    font-family: "Karla-Regular";
+    src: url(./font/Karla-Regular.ttf) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Karla-Bold";
+    src: url(./font/Karla-Bold.ttf) format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Karla-Italic";
+    src: url(./font/Karla-Italic.ttf) format('truetype');
+    font-weight: normal;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: "Karla-BoldItalic";
+    src: url(./font/Karla-BoldItalic.ttf) format('truetype');
+    font-weight: bold;
+    font-style: italic;
 }
